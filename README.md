@@ -20,10 +20,12 @@ O projeto foi migrado de RPC tradicional para gRPC, aproveitando a definição d
 - Postman (para testar os serviços)
 ## Como Rodar
 
----Compilar o servidor
+---Compilar o servidor :
+
 mvn clean compile
 Rodar a aplicação GrpcServer
 
----Consumir o Serviço
+---Consumir o Serviço : 
+
 Criar um novo workspace no Postman para invocar serviços gRPC, definir a Url como 0.0.0.0:50051 e importar o arquivo .proto
 Selecionar método que deseja invocar e selecionar a opção de "Use Example Message" para manipular requests e responses
