@@ -10,7 +10,7 @@ buildNumber.properties
 # IDEs
 *.iml
 .idea/
-.vscode/
+/.vscode/
 
 # Arquivos temporários do sistema
 *.log
