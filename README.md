@@ -22,7 +22,7 @@ O projeto foi migrado de RPC tradicional para gRPC, aproveitando a definição d
 
 ---Compilar o servidor :
 
-mvn clean compile
+mvn clean compile (para compilar o arquivo pom.xml)
 
 Rodar a aplicação GrpcServer
 
