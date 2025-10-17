@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true ; 
+
+option java_package = "calc.sd.grpcteste";
+
+package calc.sd.grpcteste ;
+
+service CalcDis{
+    rpc Div(FloatReq) returns (FloatRes){}
+    rpc Mult(FloatReq) returns (FloatRes){}
+    rpc Soma(FloatReq) returns (FloatRes){}
+    rpc Sub(FloatReq) returns (FloatRes){}
+}
+
+message FloatReq{
+    float num1 = 1;
+    float num2 = 2;
+}
+
+message FloatRes{
+    float result = 1;
+}
+
